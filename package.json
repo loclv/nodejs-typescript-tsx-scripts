@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-typescript-scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "new-script": "tsx --env-file=.env src/new-script.ts log-file-name",
+    "test:log": "tsx --env-file=.env src/test-log.ts test-log",
+    "type": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@tsconfig/node-lts": "^20.1.3",
+    "@types/node": "^20.14.7",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=20.11",
+    "npm": "Please use pnpm",
+    "yarn": "Please use pnpm",
+    "pnpm": ">=9.4.0",
+    "bun": "Please use pnpm"
+  }
+}
