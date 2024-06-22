@@ -2,10 +2,11 @@
 
 ## Motivation
 
-NodeJS Typescript Scripts template using pnpm.
+NodeJS Typescript TSX Scripts template:
 
-- Using TSX - TypeScript Executer for Node.js.
-- built-in `.env` file support with [Node.js v20.6.0 or above](https://nodejs.org/en/blog/release/v20.6.0)
+- Using `pnpm` for package management.
+- Using [tsx](https://tsx.is/) - TypeScript Executer for Node.js.
+- built-in `.env` file support with [Node.js v20.6.0 or above](https://nodejs.org/en/blog/release/v20.6.0).
 - Simple logger build on top of `node:fs` and JS `console`.
 
 ## Environment
